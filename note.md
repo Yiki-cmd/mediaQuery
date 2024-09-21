@@ -1,0 +1,1 @@
+Query-> a question, especially one expressing doubt or requesting information.

@@ -1,0 +1,41 @@
+body{
+    background-color: lightblue;
+    /* transition specifies 
+    1. the property to transition
+    2. the duration of the transition
+    3. the timing function to use or animation curve or animations type/style
+     transition: background-color 10s ease-in-out;
+     background-color: property to transtion
+     10s: duration of the transition
+     ease-in-out: timing function to use  / animation curve / animation type/style   
+    */
+    display: 10s ease-in-out backgroun-color;
+}
+.container{
+    width:300px;
+    height:200px;
+    background-color: white;
+    padding:10px;
+}
+/* styles for screens larger than 600px */
+/* this means if screen size is > 600px then apply 
+  the following styles  */
+@media(min-width:400px){
+    body{
+    background-color: lightgreen;
+    }
+    .conatiner{
+        width:80%;
+        /* center the container*/
+       margin:0 auto;
+    
+    }
+
+}
+
+/* styles for screens smaller than 600px */
+@media(max-width:800px){
+    body{
+        background-color:lightcoral;
+    }
+}
