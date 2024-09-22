@@ -1,3 +1,5 @@
+
+
 body{
     background-color: lightblue;
     /* transition specifies 
@@ -9,13 +11,19 @@ body{
      10s: duration of the transition
      ease-in-out: timing function to use  / animation curve / animation type/style   
     */
-    display: 10s ease-in-out backgroun-color;
+    transition: 10s ease-in-out backgroun-color;
+    height:800px;
 }
 .container{
     width:300px;
     height:200px;
     background-color: white;
     padding:10px;
+}
+.header{
+    background-color: lightegreen;
+    padding:10px;
+    margin-botton:10px;
 }
 /* styles for screens larger than 600px */
 /* this means if screen size is > 600px then apply 
@@ -27,6 +35,14 @@ body{
     .conatiner{
         width:80%;
         /* center the container*/
+        /*
+        0 is zero pixels 
+        but auto is a keyword that means center the container
+
+         margin: 0 auto;
+        0: top and bottom margin
+        auto: left and right margin
+        */
        margin:0 auto;
     
     }
